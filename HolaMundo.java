@@ -12,6 +12,12 @@ public class HolaMundo{
   numero2 = entrada.nextInt();
 
   resultado = numero1 + numero2;
-  System.out.println("La Suma de los números que ingresaste es: " + resultado); 
+  System.out.println("La Suma de los números que ingresaste es: " + resultado);
+
+  if (resultado > 20){
+   System.out.println("El resultado es mayor a 20");
+  } else {
+   System.out.println("El resultado no es mayor a 20");
+  }
  }
 }
